@@ -39,7 +39,7 @@ public class CinemaTicketCounter {
         }
     }
 
-    // Cancel a booking
+    
     public static void cancelSeat(int row, int col) {
         if (seats[row][col] == 'B') {  
             seats[row][col] = 'A';     
